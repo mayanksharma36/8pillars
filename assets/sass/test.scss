@@ -1,0 +1,53 @@
+body{
+  
+}
+.carousel-item::before {
+    position: absolute;
+    content: '';
+    width: 33%;
+    height: 100%;
+    background: none;
+    background:none;
+    background:none;
+    top: 0;
+    right: 15%;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+	}
+	
+	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+}
+
+ .navbar-brand {
+    float: left;
+    /* height: 50px; */
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -40px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom:0px;
+    border: 1px solid transparent;
+}
+
+.navbar-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:0px !important;
+    z-index: 99;
+}
+
